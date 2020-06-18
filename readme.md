@@ -27,6 +27,7 @@
 
 ## Building From Source
  To build each unit's applications from source you need access to this list of software
+    
     - Max 8 (8.1.0 or newer)
     - SC Package (Request access from Connor Rawls, cwrawls@asu.edu)
     - All SC dependencies, listed in the readme for SC
