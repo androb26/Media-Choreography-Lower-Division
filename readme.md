@@ -24,3 +24,11 @@
  ### Technical Design Considerations
  - At the moment we are evaluating Max patches to be run as Standalone Applications on Macintosh computers (MacOS Mojave and later)
  - Keep in mind the range in hardware configurations and capabilities within the line of Apple™ brand computers. Design your Max patches to work well on the widest possible array of these options. (e.g. If your patch runs at 10fps on a Mac Pro, consider refactoring to lessen the load)
+
+## Building From Source
+ To build each unit's applications from source you need access to this list of software
+    - Max 8 (8.1.0 or newer)
+    - SC Package (Request access from Connor Rawls, cwrawls@asu.edu)
+    - All SC dependencies, listed in the readme for SC
+    - Any additional dependencies listed in the indivdiual unit folders.
+
