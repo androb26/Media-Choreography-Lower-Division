@@ -1,0 +1,96 @@
+{
+	"pattrstorage" : 	{
+		"name" : "audio_disintegrate_edges",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"dist" : [ 0.05 ],
+					"slide_down" : [ 5.0 ],
+					"slide_up" : [ 5.0 ],
+					"live.gain~" : [  ],
+					"sc.texture.noise::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise::dim" : [ 512, 512, 0 ],
+					"sc.texture.noise[1]::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise[1]::dim" : [ 512, 512, 0 ],
+					"sc.texture.gain::bypass" : [ 0.0 ],
+					"sc.texture.gain::gain" : [ 0.001046686676554, 0.001046686676554, 0.0, 1.0 ],
+					"sc.texture.repos::mode" : [ 1.0, 1.0 ],
+					"sc.texture.repos::boundmode" : [ 0.0, 0.0 ],
+					"sc.texture.repos::amt" : [ 1.0, 1.0 ],
+					"sc.texture.repos::bypass" : [ 0.0 ],
+					"sc.biquad.2peakamp::edit_mode" : [ 1 ],
+					"sc.biquad.2peakamp::edit_freq" : [ 837.47878137898158 ],
+					"sc.biquad.2peakamp::edit_amp" : [ 0.855106811785704 ],
+					"sc.biquad.2peakamp::edit_Q" : [ 0.94437770514321 ],
+					"sc.biquad.2peakamp::slide_up" : [ 1.0 ],
+					"sc.biquad.2peakamp::slide_down" : [ 1.0 ],
+					"sc.biquad.2peakamp::function" : [ 0 ],
+					"sc.texture.edge.sobel::drawto" : [ "Disintegrate_edges" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"dist" : [ 0.5 ],
+					"slide_down" : [ 50.0 ],
+					"slide_up" : [ 1.0 ],
+					"live.gain~" : [  ],
+					"sc.texture.noise::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise::dim" : [ 512, 512, 0 ],
+					"sc.texture.noise[1]::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise[1]::dim" : [ 512, 512, 0 ],
+					"sc.texture.gain::bypass" : [ 0.0 ],
+					"sc.texture.gain::gain" : [ 0.001282228336356, 0.001282228336356, 0.0, 1.0 ],
+					"sc.texture.repos::mode" : [ 1.0, 1.0 ],
+					"sc.texture.repos::boundmode" : [ 0.0, 0.0 ],
+					"sc.texture.repos::amt" : [ 1.0, 1.0 ],
+					"sc.texture.repos::bypass" : [ 0.0 ],
+					"sc.biquad.2peakamp::edit_mode" : [ 1 ],
+					"sc.biquad.2peakamp::edit_freq" : [ 19659.0 ],
+					"sc.biquad.2peakamp::edit_amp" : [ 5.0 ],
+					"sc.biquad.2peakamp::edit_Q" : [ 1.0 ],
+					"sc.biquad.2peakamp::slide_up" : [ 1.0 ],
+					"sc.biquad.2peakamp::slide_down" : [ 1.0 ],
+					"sc.biquad.2peakamp::function" : [ 0 ],
+					"sc.texture.edge.sobel::drawto" : [ "Disintegrate_edges" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"dist" : [ 1.0 ],
+					"slide_down" : [ 20.0 ],
+					"slide_up" : [ 1.0 ],
+					"live.gain~" : [ -70.0 ],
+					"sc.texture.noise::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise::dim" : [ 512, 512, 0 ],
+					"sc.texture.noise[1]::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise[1]::dim" : [ 512, 512, 0 ],
+					"sc.texture.gain::bypass" : [ 0.0 ],
+					"sc.texture.gain::gain" : [ 0.028020938263688, 0.028020938263688, 0.0, 1.0 ],
+					"sc.texture.repos::mode" : [ 1.0, 1.0 ],
+					"sc.texture.repos::boundmode" : [ 0.0, 0.0 ],
+					"sc.texture.repos::amt" : [ 1.0, 1.0 ],
+					"sc.texture.repos::bypass" : [ 0.0 ],
+					"sc.biquad.2peakamp::edit_mode" : [ 2 ],
+					"sc.biquad.2peakamp::edit_freq" : [ 19659.0 ],
+					"sc.biquad.2peakamp::edit_amp" : [ 2.02 ],
+					"sc.biquad.2peakamp::edit_Q" : [ 1.0 ],
+					"sc.biquad.2peakamp::slide_up" : [ 1.0 ],
+					"sc.biquad.2peakamp::slide_down" : [ 1.0 ],
+					"sc.biquad.2peakamp::function" : [ 5 ],
+					"sc.texture.edge.sobel::drawto" : [ "Disintegrate_edges" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

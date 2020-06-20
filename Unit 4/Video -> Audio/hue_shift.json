@@ -1,0 +1,135 @@
+{
+	"pattrstorage" : 	{
+		"name" : "hue_shift",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"live.gain~" : [ 0.0 ],
+					"slide_down" : [ 10.0 ],
+					"slide_up" : [ 10.0 ],
+					"audio_divisor" : [ 1000.0 ],
+					"live.tab" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"live.gain~" : [ 0.0 ],
+					"slide_down" : [ 100.0 ],
+					"slide_up" : [ 100.0 ],
+					"audio_divisor" : [ 10000.0 ],
+					"live.tab" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"live.gain~" : [ 0.0 ],
+					"slide_down" : [ 50.0 ],
+					"slide_up" : [ 50.0 ],
+					"audio_divisor" : [ 1000.0 ],
+					"live.tab" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"live.gain~" : [ 0.0 ],
+					"slide_down" : [ 10.0 ],
+					"slide_up" : [ 10.0 ],
+					"audio_divisor" : [ 1000.0 ],
+					"live.tab" : [ 1.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"live.gain~" : [ 0.0 ],
+					"slide_down" : [ 100.0 ],
+					"slide_up" : [ 100.0 ],
+					"audio_divisor" : [ 10000.0 ],
+					"live.tab" : [ 1.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"live.gain~" : [ 0.0 ],
+					"slide_down" : [ 50.0 ],
+					"slide_up" : [ 50.0 ],
+					"audio_divisor" : [ 1000.0 ],
+					"live.tab" : [ 1.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"live.gain~" : [ 0.0 ],
+					"slide_down" : [ 10.0 ],
+					"slide_up" : [ 10.0 ],
+					"audio_divisor" : [ 1000.0 ],
+					"live.tab" : [ 2.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"live.gain~" : [ 0.0 ],
+					"slide_down" : [ 100.0 ],
+					"slide_up" : [ 100.0 ],
+					"audio_divisor" : [ 10000.0 ],
+					"live.tab" : [ 2.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"live.gain~" : [ 0.0 ],
+					"slide_down" : [ 50.0 ],
+					"slide_up" : [ 50.0 ],
+					"audio_divisor" : [ 1000.0 ],
+					"live.tab" : [ 2.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

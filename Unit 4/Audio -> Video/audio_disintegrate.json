@@ -1,0 +1,90 @@
+{
+	"pattrstorage" : 	{
+		"name" : "audio_disintegrate",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"sc.texture.noise::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise::dim" : [ 512, 512, 0 ],
+					"sc.texture.noise[1]::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise[1]::dim" : [ 512, 512, 0 ],
+					"sc.texture.gain::bypass" : [ 0.0 ],
+					"sc.texture.gain::gain" : [ 0.058890663309957, 0.058890663309957, 0.0, 1.0 ],
+					"sc.texture.repos::mode" : [ 1.0, 1.0 ],
+					"sc.texture.repos::boundmode" : [ 0.0, 0.0 ],
+					"sc.texture.repos::amt" : [ 1.0, 1.0 ],
+					"sc.texture.repos::bypass" : [ 0.0 ],
+					"sc.biquad.2peakamp::edit_mode" : [ 1 ],
+					"sc.biquad.2peakamp::edit_freq" : [ 46.0 ],
+					"sc.biquad.2peakamp::edit_amp" : [ 0.855106811785704 ],
+					"sc.biquad.2peakamp::edit_Q" : [ 0.94437770514321 ],
+					"sc.biquad.2peakamp::slide_up" : [ 1.0 ],
+					"sc.biquad.2peakamp::slide_down" : [ 1.0 ],
+					"sc.biquad.2peakamp::function" : [ 6 ],
+					"sc.texture.slide::slide_down" : [ 100.0 ],
+					"sc.texture.slide::slide_up" : [ 100.0 ],
+					"sc.texture.slide::bypass" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"sc.texture.noise::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise::dim" : [ 512, 512, 0 ],
+					"sc.texture.noise[1]::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise[1]::dim" : [ 512, 512, 0 ],
+					"sc.texture.gain::bypass" : [ 0.0 ],
+					"sc.texture.gain::gain" : [ 0.05292152724356, 0.05292152724356, 0.0, 1.0 ],
+					"sc.texture.repos::mode" : [ 1.0, 1.0 ],
+					"sc.texture.repos::boundmode" : [ 0.0, 0.0 ],
+					"sc.texture.repos::amt" : [ 1.0, 1.0 ],
+					"sc.texture.repos::bypass" : [ 0.0 ],
+					"sc.biquad.2peakamp::edit_mode" : [ 1 ],
+					"sc.biquad.2peakamp::edit_freq" : [ 20000.0 ],
+					"sc.biquad.2peakamp::edit_amp" : [ 5.0 ],
+					"sc.biquad.2peakamp::edit_Q" : [ 1.0 ],
+					"sc.biquad.2peakamp::slide_up" : [ 1.0 ],
+					"sc.biquad.2peakamp::slide_down" : [ 1.0 ],
+					"sc.biquad.2peakamp::function" : [ 0 ],
+					"sc.texture.slide::slide_down" : [  ],
+					"sc.texture.slide::slide_up" : [  ],
+					"sc.texture.slide::bypass" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"sc.texture.noise::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise::dim" : [ 512, 512, 0 ],
+					"sc.texture.noise[1]::steps" : [ 2.0, 2.0 ],
+					"sc.texture.noise[1]::dim" : [ 512, 512, 0 ],
+					"sc.texture.gain::bypass" : [ 0.0 ],
+					"sc.texture.gain::gain" : [ 0.00431427827551, 0.00431427827551, 0.0, 1.0 ],
+					"sc.texture.repos::mode" : [ 1.0, 1.0 ],
+					"sc.texture.repos::boundmode" : [ 0.0, 0.0 ],
+					"sc.texture.repos::amt" : [ 1.0, 1.0 ],
+					"sc.texture.repos::bypass" : [ 0.0 ],
+					"sc.biquad.2peakamp::edit_mode" : [ 2 ],
+					"sc.biquad.2peakamp::edit_freq" : [ 46.0 ],
+					"sc.biquad.2peakamp::edit_amp" : [ 0.855106811785704 ],
+					"sc.biquad.2peakamp::edit_Q" : [ 0.94437770514321 ],
+					"sc.biquad.2peakamp::slide_up" : [ 1.0 ],
+					"sc.biquad.2peakamp::slide_down" : [ 1.0 ],
+					"sc.biquad.2peakamp::function" : [ 5 ],
+					"sc.texture.slide::slide_down" : [ 100.0 ],
+					"sc.texture.slide::slide_up" : [ 100.0 ],
+					"sc.texture.slide::bypass" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
