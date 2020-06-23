@@ -20,3 +20,14 @@
         -Max Source Options + Media:
             -https://drive.google.com/drive/folders/1eOqIhGPXarrDXyOnMgnhLiVwS8BfiaSe?usp=sharing
 
+
+
+
+
+### Test Notes:
+(From Andrew)
+- "Audio Disintergration Edges" preset 3 turns the volume slider down.
+- "Hue Pitch Shift" should have a jit.world window too so students can see the correlation of how the hue of the video changes it's pitch.
+- "luminosity pitch shift" should also have jit.world window for the same reason. It's really hard to understand how hue or luminosity is changing the pitch if I can't see the video.
+- "Audio HSL Shift" & "video DelaySequence" were very fun to play with.
+- "Motion Reverb Frame differencing" was also incredibly fun to play with however if student has never used max or any DAW they may not understand some of the terminology being used in the description such (Frame Differencing, Reverb, Peakamp...)
