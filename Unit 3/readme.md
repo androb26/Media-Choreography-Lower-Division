@@ -15,3 +15,7 @@
         - granular synthesizer
     - something with reverb?
 
+### Test notes
+(From Andrew)
+- Simple_FFFb seems to only have one working audio buffer at the moment.
+- simple soundscape is incredibly fun to experiment with. It needs to have the same panning feature from simple_fffb

@@ -19,3 +19,6 @@ Understanding the principles of media processing techniques already demonstrated
 - Any of the applications from the preceding 3 units.
 - Examples that show transcoding of data video ←→ audio
 
+### Test Notes:
+(from Andrew)
+- I am confused about the given directions for this unit. Without more explaination, I geniunely don't understand what you are asking students to do using the previously given standalones.
