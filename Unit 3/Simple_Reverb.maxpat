@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -38,6 +38,253 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.88, 0.755, 0.472, 1.0 ],
+					"fontface" : 1,
+					"fontlink" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-60",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 271.4892578125, 262.0, 26.0107421875, 28.109375 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 271.4892578125, 262.8359375, 26.0107421875, 28.109375 ],
+					"rounded" : 100.0,
+					"text" : "5",
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-48",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1207.25, 514.0, 12.5, 14.333333333333371 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 39.5, 298.0, 35.0, 4.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-58",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1211.5, 514.0, 12.5, 14.333333333333371 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 39.5, 493.0, 35.0, 4.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-59",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1207.25, 520.333333333333258, 12.5, 14.333333333333371 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 39.5, 302.0, 4.0, 195.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-183",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1192.25, 499.0, 12.5, 14.333333333333371 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 39.5, 132.5, 35.0, 4.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-182",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1196.5, 499.0, 12.5, 14.333333333333371 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 39.5, 234.0, 35.0, 4.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-181",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1192.25, 505.333333333333314, 12.5, 14.333333333333371 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 39.5, 132.5, 4.0, 105.5 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-177",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 831.0, 723.0, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 964.5, 35.0, 236.0, 33.0 ],
+					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 433.0, 107.5546875, 71.0, 22.0 ],
+					"text" : "normalize 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 433.0, 81.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 312.0, 107.5546875, 71.0, 22.0 ],
+					"text" : "normalize 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 312.0, 81.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 191.0, 107.5546875, 71.0, 22.0 ],
+					"text" : "normalize 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 191.0, 81.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 70.499999999999972, 104.5546875, 71.0, 22.0 ],
+					"text" : "normalize 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 70.499999999999972, 78.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 594.0, 90.0, 75.0, 22.0 ],
+					"text" : "loadmess \" \""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
@@ -148,7 +395,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 235.4892578125, 551.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.99462890625, 522.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 11.4892578125, 525.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -170,7 +417,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1058.4892578125, 105.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.4892578125, 278.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 11.4892578125, 108.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -203,14 +450,17 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : 1,
 					"id" : "obj-135",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1024.0, 284.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1024.0, 284.0, 160.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 313.5, 283.0, 150.0, 20.0 ],
-					"text" : "Set reverb amount"
+					"presentation_rect" : [ 304.0, 268.9453125, 119.0, 20.0 ],
+					"text" : "Set Reverb Amount",
+					"textjustification" : 1
 				}
 
 			}
@@ -243,7 +493,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 913.0, 320.0, 261.0, 143.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 248.0, 310.0, 270.0, 143.0 ],
+					"presentation_rect" : [ 304.0, 302.0, 270.0, 143.0 ],
 					"setminmax" : [ -2400.0, 2400.0 ],
 					"size" : 4,
 					"slidercolor" : [ 0.996078431372549, 0.0, 0.0, 1.0 ],
@@ -314,7 +564,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 149.0, 540.890625, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 468.5, 278.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 11.4892578125, 268.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -336,7 +586,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 210.99462890625, 584.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 310.4892578125, 76.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 332.0, 58.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -345,14 +595,16 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : 1,
 					"id" : "obj-89",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 582.0, 150.0, 33.0 ],
+					"patching_rect" : [ 55.0, 582.0, 124.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.999999999999972, 80.5, 206.000000000000028, 20.0 ],
+					"presentation_rect" : [ 104.999999999999972, 62.5, 225.0, 20.0 ],
 					"text" : "Enable Application Audio Processing"
 				}
 
@@ -407,28 +659,34 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : 1,
 					"id" : "obj-55",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 522.0, 150.0, 20.0 ],
+					"patching_rect" : [ 149.0, 522.0, 157.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 526.0, 164.0, 20.0 ],
-					"text" : "Set Master Level"
+					"presentation_rect" : [ 39.5, 529.0546875, 103.0, 20.0 ],
+					"text" : "Set Master Level",
+					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : 1,
 					"id" : "obj-54",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 584.5, 405.0, 150.0, 33.0 ],
+					"patching_rect" : [ 584.5, 405.0, 161.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 283.0, 174.0, 20.0 ],
-					"text" : "Set Individual Track Levels"
+					"presentation_rect" : [ 39.5, 270.9453125, 162.0, 20.0 ],
+					"text" : "Set Individual Track Levels",
+					"textjustification" : 1
 				}
 
 			}
@@ -444,15 +702,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 577.5, 354.0, 164.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 454.0, 164.0, 41.0 ],
+					"presentation_rect" : [ 55.499999999999972, 449.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Audio Track 4 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "Audio-1-level[3]",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "Audio Track 4 Level"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -478,7 +736,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 272797.774586006999016, "ticks" ],
-						"originaltempo" : 143.82767739092111,
+						"originaltempo" : 8737.544120720716819,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -501,15 +759,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 383.5, 354.0, 164.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 402.0, 164.0, 41.0 ],
+					"presentation_rect" : [ 55.499999999999972, 397.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Audio Track 3 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "Audio-1-level[2]",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "Audio Track 3 Level"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -535,7 +793,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 1939.199964415747672, "ticks" ],
-						"originaltempo" : 0.704263433515483,
+						"originaltempo" : 77.374581092525162,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -558,15 +816,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 195.499999999999972, 354.0, 164.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 353.0, 164.0, 41.0 ],
+					"presentation_rect" : [ 55.499999999999972, 348.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Audio Track 2 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "Audio-1-level[1]",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "Audio Track 2 Level"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -651,15 +909,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 5.499999999999972, 522.0, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 548.0, 164.0, 47.0 ],
+					"presentation_rect" : [ 39.5, 557.0546875, 164.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Main Audio Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "mc.live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "Main Audio Level"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -680,15 +938,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 5.499999999999972, 354.0, 164.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 305.0, 164.0, 41.0 ],
+					"presentation_rect" : [ 55.499999999999972, 300.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Audio Track 1 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "Audio-1-level",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "Audio Track 1 Level"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -733,7 +991,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.499999999999972, 570.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 39.0, 61.5, 61.5 ]
+					"presentation_rect" : [ 39.499999999999972, 21.0, 61.5, 61.5 ]
 				}
 
 			}
@@ -764,30 +1022,28 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-129",
-					"linecount" : 5,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1285.5, 145.0, 150.0, 74.0 ],
+					"patching_rect" : [ 1285.5, 145.0, 30.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 146.0, 197.0, 240.0, 33.0 ],
-					"text" : "File: y2mate.com - Amazing Harmonica Street Musician_jFsbVDk5e0A.mp3"
+					"presentation_rect" : [ 174.0, 210.0, 568.5, 20.0 ],
+					"text" : "File:"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-128",
-					"linecount" : 6,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1096.5, 145.0, 150.0, 87.0 ],
+					"patching_rect" : [ 1096.5, 145.0, 20.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 142.499999999999972, 174.0, 243.0, 47.0 ],
-					"text" : "File: y2mate.com - Bellaire - Some Jazz To Make Love On [AOC001 Vinyl Exclusive]_EWwRimC3jS0.mp3"
+					"presentation_rect" : [ 170.499999999999972, 187.0, 572.0, 20.0 ],
+					"text" : "File:"
 				}
 
 			}
@@ -799,8 +1055,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 933.5, 145.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 142.499999999999972, 152.0, 186.0, 20.0 ],
-					"text" : "File: Andrew Motion.aif"
+					"presentation_rect" : [ 170.499999999999972, 165.0, 572.0, 20.0 ],
+					"text" : "File:"
 				}
 
 			}
@@ -811,10 +1067,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 744.5, 145.0, 150.0, 33.0 ],
+					"patching_rect" : [ 744.5, 145.0, 30.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 142.499999999999972, 129.0, 186.0, 20.0 ],
-					"text" : "File: a chase in the trachea.aif"
+					"presentation_rect" : [ 170.499999999999972, 142.0, 572.0, 20.0 ],
+					"text" : "File:"
 				}
 
 			}
@@ -920,20 +1176,22 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 84.0, 37.0, 22.0 ],
+					"patching_rect" : [ 459.0, 81.0, 37.0, 22.0 ],
 					"text" : "s info"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : 1,
 					"id" : "obj-87",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.5, 81.0, 150.0, 20.0 ],
+					"patching_rect" : [ 415.5, 31.0, 160.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 106.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 39.499999999999972, 110.5, 160.0, 20.0 ],
 					"text" : "Choose Audio Files to Use"
 				}
 
@@ -948,7 +1206,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 363.0, 2.0, 119.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 197.0, 119.0, 21.0 ],
+					"presentation_rect" : [ 49.499999999999972, 210.0, 119.0, 21.0 ],
 					"text" : "Load Audio Track 4"
 				}
 
@@ -963,7 +1221,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 242.0, 2.0, 119.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 174.0, 119.0, 21.0 ],
+					"presentation_rect" : [ 49.499999999999972, 187.0, 119.0, 21.0 ],
 					"text" : "Load Audio Track 3"
 				}
 
@@ -978,7 +1236,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 121.0, 2.0, 119.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 151.0, 119.0, 21.0 ],
+					"presentation_rect" : [ 49.499999999999972, 164.0, 119.0, 21.0 ],
 					"text" : "Load Audio Track 2"
 				}
 
@@ -993,7 +1251,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 0.0, 2.0, 119.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.499999999999972, 128.0, 119.0, 21.0 ],
+					"presentation_rect" : [ 49.499999999999972, 141.0, 119.0, 21.0 ],
 					"text" : "Load Audio Track 1"
 				}
 
@@ -1140,6 +1398,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-161", 0 ],
+					"order" : 0,
+					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"order" : 1,
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -1235,6 +1502,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-161", 0 ],
+					"order" : 0,
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"order" : 1,
 					"source" : [ "obj-14", 1 ]
 				}
 
@@ -1249,6 +1525,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-161", 0 ],
+					"order" : 0,
+					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"order" : 1,
 					"source" : [ "obj-16", 1 ]
 				}
 
@@ -1596,8 +1881,96 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"order" : 3,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"order" : 2,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-121", 0 ],
+					"order" : 0,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-123", 0 ],
+					"order" : 1,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-57", 0 ]
 				}
 
 			}
@@ -1611,6 +1984,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-161", 0 ],
+					"order" : 0,
+					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"order" : 1,
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -1625,10 +2007,10 @@
  ],
 		"parameters" : 		{
 			"obj-33" : [ "Audio-1-level[3]", "Audio Track 4 Level", 0 ],
+			"obj-1" : [ "mc.live.gain~", "Main Audio Level", 0 ],
+			"obj-28" : [ "Audio-1-level[2]", "Audio Track 3 Level", 0 ],
 			"obj-23" : [ "Audio-1-level[1]", "Audio Track 2 Level", 0 ],
 			"obj-22" : [ "Audio-1-level", "Audio Track 1 Level", 0 ],
-			"obj-28" : [ "Audio-1-level[2]", "Audio Track 3 Level", 0 ],
-			"obj-1" : [ "mc.live.gain~", "Main Audio Level", 0 ],
 			"parameterbanks" : 			{
 
 			}
