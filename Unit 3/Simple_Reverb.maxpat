@@ -171,7 +171,7 @@
 					"patching_rect" : [ 831.0, 723.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 964.5, 35.0, 236.0, 33.0 ],
+					"presentation_rect" : [ 443.5, 17.0, 236.0, 33.0 ],
 					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020"
 				}
 
