@@ -705,12 +705,12 @@
 					"presentation_rect" : [ 55.499999999999972, 449.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Audio Track 4 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Audio-1-level[3]",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "Audio-1-level[3]"
 						}
 
 					}
@@ -736,7 +736,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 272797.774586006999016, "ticks" ],
-						"originaltempo" : 8737.544120720716819,
+						"originaltempo" : 749.261106275357633,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -762,12 +762,12 @@
 					"presentation_rect" : [ 55.499999999999972, 397.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Audio Track 3 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Audio-1-level[2]",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "Audio-1-level[2]"
 						}
 
 					}
@@ -819,12 +819,12 @@
 					"presentation_rect" : [ 55.499999999999972, 348.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Audio Track 2 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Audio-1-level[1]",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "Audio-1-level[1]"
 						}
 
 					}
@@ -850,7 +850,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 109.170066023943946, "ticks" ],
-						"originaltempo" : 0.299844397797554,
+						"originaltempo" : 3.496649743546451,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -912,12 +912,12 @@
 					"presentation_rect" : [ 39.5, 557.0546875, 164.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Main Audio Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "mc.live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "mc.live.gain~"
 						}
 
 					}
@@ -941,12 +941,12 @@
 					"presentation_rect" : [ 55.499999999999972, 300.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Audio Track 1 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Audio-1-level",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "Audio-1-level"
 						}
 
 					}
@@ -1022,55 +1022,56 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-129",
-					"linecount" : 2,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1285.5, 145.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1285.5, 145.0, 30.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 174.0, 210.0, 568.5, 20.0 ],
-					"text" : "File:"
+					"text" : "File: Andrew Motion.aif"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-128",
-					"linecount" : 3,
+					"linecount" : 37,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1096.5, 145.0, 20.0, 47.0 ],
+					"patching_rect" : [ 1096.5, 145.0, 20.0, 503.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 170.499999999999972, 187.0, 572.0, 20.0 ],
-					"text" : "File:"
+					"text" : "File: Best Cardinal Bird-SoundBible.com-1171415022.wav"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-127",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 933.5, 145.0, 150.0, 20.0 ],
+					"patching_rect" : [ 933.5, 145.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 170.499999999999972, 165.0, 572.0, 20.0 ],
-					"text" : "File:"
+					"text" : "File: Arizona State University.m4a"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-126",
-					"linecount" : 2,
+					"linecount" : 9,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 744.5, 145.0, 30.0, 33.0 ],
+					"patching_rect" : [ 744.5, 145.0, 30.0, 127.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 170.499999999999972, 142.0, 572.0, 20.0 ],
-					"text" : "File:"
+					"text" : "File: a chase in the trachea.aif"
 				}
 
 			}
@@ -2006,11 +2007,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-33" : [ "Audio-1-level[3]", "Audio Track 4 Level", 0 ],
 			"obj-1" : [ "mc.live.gain~", "Main Audio Level", 0 ],
-			"obj-28" : [ "Audio-1-level[2]", "Audio Track 3 Level", 0 ],
-			"obj-23" : [ "Audio-1-level[1]", "Audio Track 2 Level", 0 ],
 			"obj-22" : [ "Audio-1-level", "Audio Track 1 Level", 0 ],
+			"obj-23" : [ "Audio-1-level[1]", "Audio Track 2 Level", 0 ],
+			"obj-28" : [ "Audio-1-level[2]", "Audio Track 3 Level", 0 ],
+			"obj-33" : [ "Audio-1-level[3]", "Audio Track 4 Level", 0 ],
 			"parameterbanks" : 			{
 
 			}

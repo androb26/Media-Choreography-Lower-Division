@@ -39,6 +39,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 808.0, 204.0, 119.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 950.5, 180.0, 153.0, 33.0 ],
+					"text" : "Randomize All Grains"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-177",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -67,7 +82,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 443.5, 81.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 439.5, 79.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 411.4892578125, 79.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -197,10 +212,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 538.5, 35.0, 74.0, 114.0 ],
+					"patching_rect" : [ 538.5, 35.0, 76.0, 114.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 472.5, 77.5, 308.0, 33.0 ],
+					"presentation_rect" : [ 439.5, 77.5, 380.0, 33.0 ],
 					"text" : "Click and Drag to select Grain or use Grain Size and Randomize Buttons"
 				}
 
@@ -213,9 +228,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1267.5, 219.0, 119.0, 21.0 ],
+					"patching_rect" : [ 1276.5, 233.0, 119.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 821.5, 243.25, 119.0, 36.0 ],
+					"presentation_rect" : [ 821.5, 240.75, 119.0, 41.0 ],
 					"text" : "Randomize Grain"
 				}
 
@@ -228,9 +243,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1137.5, 219.0, 119.0, 21.0 ],
+					"patching_rect" : [ 1146.5, 233.0, 119.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 821.5, 201.25, 119.0, 36.0 ],
+					"presentation_rect" : [ 821.5, 198.75, 119.0, 41.0 ],
 					"text" : "Randomize Grain"
 				}
 
@@ -243,9 +258,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1011.0, 226.0, 119.0, 21.0 ],
+					"patching_rect" : [ 1011.0, 233.0, 119.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 821.5, 159.25, 119.0, 36.0 ],
+					"presentation_rect" : [ 821.5, 156.75, 119.0, 41.0 ],
 					"text" : "Randomize Grain"
 				}
 
@@ -330,7 +345,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1357.5, 239.0, 75.0, 20.0 ],
+					"patching_rect" : [ 1438.5, 261.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 821.5, 93.25, 67.0, 20.0 ],
 					"text" : "Grain Size",
@@ -373,9 +388,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 881.0, 226.0, 119.0, 21.0 ],
+					"patching_rect" : [ 881.0, 233.0, 119.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 821.5, 117.25, 119.0, 36.0 ],
+					"presentation_rect" : [ 821.5, 114.75, 119.0, 41.0 ],
 					"text" : "Randomize Grain"
 				}
 
@@ -1049,12 +1064,12 @@
 					"presentation_rect" : [ 21.5, 411.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Audio Track 4 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Audio-1-level[3]",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "Audio-1-level[3]"
 						}
 
 					}
@@ -1076,8 +1091,8 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
+						"loopend" : [ 44894.786133877714747, "ms" ],
+						"loopstart" : [ 42410.137521830707556, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 0.0, "ticks" ],
 						"originaltempo" : 120.0,
@@ -1106,12 +1121,12 @@
 					"presentation_rect" : [ 21.5, 368.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Audio Track 3 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Audio-1-level[2]",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "Audio-1-level[2]"
 						}
 
 					}
@@ -1133,8 +1148,8 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
+						"loopend" : [ 168612.477489392796997, "ms" ],
+						"loopstart" : [ 163658.327658113150392, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 0.0, "ticks" ],
 						"originaltempo" : 120.0,
@@ -1163,12 +1178,12 @@
 					"presentation_rect" : [ 21.5, 325.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Audio Track 2 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Audio-1-level[1]",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "Audio-1-level[1]"
 						}
 
 					}
@@ -1190,8 +1205,8 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
+						"loopend" : [ 3395.3125, "ms" ],
+						"loopstart" : [ 3348.14583333333303, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 0.0, "ticks" ],
 						"originaltempo" : 120.0,
@@ -1256,12 +1271,12 @@
 					"presentation_rect" : [ 39.5, 510.0, 164.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Main Audio Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "mc.live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "mc.live.gain~"
 						}
 
 					}
@@ -1285,12 +1300,12 @@
 					"presentation_rect" : [ 21.5, 282.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Audio Track 1 Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Audio-1-level",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "Audio-1-level"
 						}
 
 					}
@@ -1312,8 +1327,8 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
+						"loopend" : [ 32123.266417601236753, "ms" ],
+						"loopstart" : [ 31573.334425784240011, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 0.0, "ticks" ],
 						"originaltempo" : 120.0,
@@ -1366,39 +1381,42 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-129",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1400.5, 177.0, 151.0, 20.0 ],
+					"patching_rect" : [ 1400.5, 177.0, 151.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.0, 203.0, 241.0, 20.0 ],
-					"text" : "File:"
+					"text" : "File: Lullaby rough mix.mp3"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-128",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1235.5, 177.0, 151.0, 20.0 ],
+					"patching_rect" : [ 1235.5, 177.0, 151.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 139.499999999999972, 180.0, 244.0, 20.0 ],
-					"text" : "File:"
+					"text" : "File: HOLYFAWN1.MIX4.wav"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-127",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1072.5, 177.0, 151.0, 20.0 ],
+					"patching_rect" : [ 1072.5, 177.0, 151.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 139.499999999999972, 158.0, 243.0, 20.0 ],
-					"text" : "File:"
+					"text" : "File: Arizona State University.m4a"
 				}
 
 			}
@@ -1411,7 +1429,7 @@
 					"patching_rect" : [ 914.5, 177.0, 151.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 139.499999999999972, 135.0, 244.0, 20.0 ],
-					"text" : "File:"
+					"text" : "File: Andrew Motion.aif"
 				}
 
 			}
@@ -2389,6 +2407,38 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"order" : 3,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"order" : 2,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 0 ],
+					"order" : 0,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"order" : 1,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"order" : 0,
 					"source" : [ "obj-61", 0 ]
@@ -2676,11 +2726,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-33" : [ "Audio-1-level[3]", "Audio Track 4 Level", 0 ],
 			"obj-1" : [ "mc.live.gain~", "Main Audio Level", 0 ],
-			"obj-28" : [ "Audio-1-level[2]", "Audio Track 3 Level", 0 ],
-			"obj-23" : [ "Audio-1-level[1]", "Audio Track 2 Level", 0 ],
 			"obj-22" : [ "Audio-1-level", "Audio Track 1 Level", 0 ],
+			"obj-23" : [ "Audio-1-level[1]", "Audio Track 2 Level", 0 ],
+			"obj-28" : [ "Audio-1-level[2]", "Audio Track 3 Level", 0 ],
+			"obj-33" : [ "Audio-1-level[3]", "Audio Track 4 Level", 0 ],
 			"parameterbanks" : 			{
 
 			}
